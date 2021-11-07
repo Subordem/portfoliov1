@@ -1,0 +1,162 @@
+#showcase {
+  height: 100vh;
+  .fundo {
+    background-color: $cinza-claro;
+    height: 100%;
+    margin: 2rem;
+  }
+
+  img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 55%;
+
+    opacity: 0.4;
+  }
+
+  .box {
+    display: flex;
+    position: absolute;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 2;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -58%);
+    font-family: Hacked;
+    font-weight: lighter !important;
+  }
+
+  .hacked {
+    letter-spacing: 0.1rem;
+    font-size: 2rem;
+    margin: 2rem 2rem 0;
+    text-align: center;
+  }
+
+  span {
+    color: #fff;
+    background-color: black;
+    padding: 0px 3px;
+  }
+
+  .portfolio {
+    font-size: 1.5rem;
+    margin: 2rem;
+  }
+  .name {
+    text-align: center;
+    font-size: 4rem;
+    margin: 0 1rem;
+  }
+}
+
+.letras-span {
+  margin: 2rem;
+  font-family: Hacked;
+  font-size: 30rem;
+  position: absolute;
+  top: 0;
+
+  #m,
+  #a,
+  #i,
+  #n {
+    opacity: 0.7;
+    position: absolute;
+  }
+
+  #i {
+    top: 50vh;
+  }
+
+  #a,
+  #n {
+    top: 55vh;
+  }
+
+  #a {
+    left: 30vw;
+  }
+
+  #n {
+    left: 70vw;
+  }
+
+  #m {
+    left: 5vw;
+    top: 40vh;
+  }
+
+  #i {
+    left: 50vw;
+  }
+}
+
+@media (max-width: 600px) {
+  .letras-span {
+    font-size: 8rem;
+    #a,
+    #n {
+      top: 72vh;
+    }
+    #m,
+    #i {
+      top: 75vh;
+    }
+    #a {
+      left: 30vw;
+    }
+
+    #n {
+      left: 60vw;
+    }
+
+    #m {
+      left: 5vw;
+    }
+
+    #i {
+      left: 50vw;
+    }
+  }
+}
+.triangulos {
+  position: relative;
+  display: flex;
+  transform: translateY(-12rem);
+  justify-content: space-between;
+}
+
+.divider {
+  width: 0;
+  height: 0;
+  border-left: 0 solid transparent;
+  border-right: 50vw solid transparent;
+  border-bottom: 5rem solid $preto;
+  position: absolute;
+}
+
+.divider-2 {
+  width: 0;
+  height: 0;
+  border-left: 50vw solid transparent;
+  border-right: 0 solid transparent;
+  border-bottom: 5rem solid $preto;
+  position: absolute;
+  left: 50%;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: #fff;
+  font-family: pixel;
+  font-weight: bold;
+  transform: translateY(-10rem);
+}

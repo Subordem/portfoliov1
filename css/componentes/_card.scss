@@ -1,0 +1,105 @@
+.card {
+  font-family: hacked !important;
+  background-color: $cinza !important;
+  display: flex !important;
+  flex-direction: column !important;
+  padding: 0.5rem !important;
+  border-radius: 5px !important;
+  border: $cinza-medio solid 1px !important ;
+  &:nth-child(1) {
+    transform: translate(1vw);
+  }
+
+  &:nth-child(2) {
+    transform: translate(-10vw);
+  }
+
+  &:nth-child(3) {
+    transform: translateX(-20vw);
+  }
+  &:nth-child(4) {
+    transform: translateX(-29vw);
+  }
+  &:nth-child(5) {
+    transform: translateX(-38vw);
+  }
+
+  &:nth-child(6) {
+    transform: translateX(-47vw);
+  }
+
+  &:nth-child(7) {
+    transform: translateX(-58vw);
+  }
+  &:nth-child(8) {
+    transform: translateX(-68vw);
+  }
+
+  &:nth-child(9) {
+    transform: translateX(-76vw);
+  }
+
+  .head-card {
+    background-color: $cinza-medio !important;
+    display: flex !important;
+    justify-content: space-between !important;
+    align-items: center !important;
+    border-bottom: 2px solid $preto !important;
+    color: #fff !important;
+    padding: 0.5rem !important;
+
+    .titulo {
+      font-size: 1.3rem;
+    }
+    .botoes {
+      border: 2px solid #fff !important;
+      padding: 3px !important;
+      border-radius: 3px !important;
+    }
+  }
+
+  .body-card {
+    display: flex !important;
+    align-items: center !important;
+    margin: 0.5rem 0 0;
+    font-size: 2rem;
+    color: $cinza-medio;
+
+    .logo img {
+      width: 4.5rem;
+      height: auto;
+    }
+    p {
+      margin-left: 0.7rem;
+    }
+  }
+}
+
+@media (max-width: 600px) {
+  .logo img {
+    width: 2rem !important;
+    height: auto;
+  }
+  .body-card {
+    display: flex !important;
+    align-items: center !important;
+    margin: 0.5rem 0 0;
+
+    color: $cinza-medio;
+    font-size: 0.7rem !important;
+    p {
+      margin-left: 1rem !important;
+    }
+  }
+
+  .titulo {
+    font-size: 0.7rem !important;
+  }
+
+  .botoes {
+    border: 1px solid #fff !important;
+    padding: 1px !important;
+    font-size: 0.4rem !important;
+    border-radius: 3px !important;
+  }
+}

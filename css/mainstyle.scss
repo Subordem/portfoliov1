@@ -1,0 +1,9 @@
+@import "./utilidades/cores", "./utilidades/fonte", "./utilidades/funcoes";
+
+@import "./componentes/showcase", "./componentes/secao-login",
+  "./componentes/card";
+
+* {
+  margin: 0;
+  padding: 0;
+}

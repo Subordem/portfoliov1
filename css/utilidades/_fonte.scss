@@ -1,0 +1,19 @@
+// fontes
+
+@font-face {
+    // fonte 1 - hacked
+    font-family: Hacked;
+    src: url('../../HACKED/HACKED/HACKED.ttf')
+}
+
+@font-face {
+    font-family: Pixel;
+    src: url('../../pixel_operator/PixelOperator.ttf');
+}
+
+@font-face {
+    font-family: Pixel bold;
+    src: url('../../pixel_operator/PixelOperator8-Bold.ttf');
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
